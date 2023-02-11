@@ -9,7 +9,7 @@ function Top50() {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '6b5a7ee7e7mshba47d4fd777dba3p12c933jsn7b1139b00a53',
+            'X-RapidAPI-Key': 'b044c03b9amshd0d2c3a3355470cp192338jsn2b5104da4842',
             'X-RapidAPI-Host': 'imdb-top-100-movies.p.rapidapi.com'
         }
     };

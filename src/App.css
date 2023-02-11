@@ -73,3 +73,22 @@ a {
   margin-left: 70px;
   margin-top: 5px;
 }
+
+.filterdiv {
+  display: flex;
+}
+
+#select {
+  background-color: black;
+  margin-left: 42%;
+  margin-top: 2%;
+  width: 200px;
+}
+
+#btnfilter {
+  background-color: black;
+  height: 40px;
+  width: 150px;
+  margin-left: 1%;
+  margin-top: 39px;
+}
