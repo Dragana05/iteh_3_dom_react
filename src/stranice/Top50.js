@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Tabela from "../komponente/Tabela";
 
 function Top50() {
 
@@ -23,32 +24,7 @@ function Top50() {
     return (
         <div className="top50">
 
-            <table id="tabletop50" className="table table-bordered">
-
-                <thead>
-                    <tr className="table-warning">
-                        <th>Rank</th>
-                        <th>Title</th>
-                        <th>Genre</th>
-                        <th>Year</th>
-                        <th>Rating</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    {filmovi.map(film => {
-                        return (
-                            <tr className='text-white' key={film.rank}>
-                                <td>{film.rank}</td>
-                                <td>{film.title}</td>
-                                <td>{film.genre[0]}</td>
-                                <td>{film.year}</td>
-                                <td>{film.rating}</td>
-                            </tr>
-                        );
-                    })}
-                </tbody>
-            </table>
+            <Tabela filmovi={filmovi} />
 
         </div>
     )
