@@ -32,7 +32,19 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+tbody {
+  background-color: #0f0f0f;
+}
+
+#tabletop50 {
+  width: 60%;
+  margin-top: 100px;
+  margin-left: 400px;
 }
