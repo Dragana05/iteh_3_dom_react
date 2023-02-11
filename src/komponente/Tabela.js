@@ -4,7 +4,7 @@ function Tabela(props) {
             <table id="tabletop50" className="table table-bordered">
 
                 <thead>
-                    <tr className="table-warning">
+                    <tr className="text-warning">
                         <th>Rank</th>
                         <th>Title</th>
                         <th>Genre</th>
@@ -17,7 +17,7 @@ function Tabela(props) {
                     {props.filmovi.map(film => {
                         return (
                             <tr className='text-white' key={film.rank}>
-                                <td>{film.rank}</td>
+                                <td className="text-warning">{film.rank}</td>
                                 <td>{film.title}</td>
                                 <td>{film.genre[0]}</td>
                                 <td>{film.year}</td>
@@ -27,7 +27,7 @@ function Tabela(props) {
                     })}
                 </tbody>
             </table>
-        </div>
+        </div >
     )
 }
 

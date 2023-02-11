@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Nav from '../komponente/Nav';
 import Tabela from "../komponente/Tabela";
 
 function Top50() {
@@ -24,6 +25,7 @@ function Top50() {
     return (
         <div className="top50">
 
+            <Nav />
             <Tabela filmovi={filmovi} />
 
         </div>
